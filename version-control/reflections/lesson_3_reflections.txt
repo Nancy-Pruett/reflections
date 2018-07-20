@@ -1,3 +1,15 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
   If you have multiple computers or people, or if you're afraid of losing data on one computer.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  same as you want the staging area, you can have a version for jst yourself before it's ready to be viewed or merged.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+  Forks are only on GitHub.  clones are exact copies - use them when you want a copy somewhere else or before editing a copy if you don't want to change the initial.  Branches exist within a single repository but are different version.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  If you go offline, you have access to the remote.  also you can check diff with the remote

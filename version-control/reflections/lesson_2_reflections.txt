@@ -8,4 +8,16 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-  check the staging area vs the working directory ( git diff ) 
+  check the staging area vs the working directory ( git diff )
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+  Branches allow multiple people to work at once and commit their changes.  Also another method of organizing versions of the game
+
+How do diagrams help you visualize the branch structure?
+
+  see what nodes are visible from where, and track changes
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  We create a top of both branches including the changes from both.  We represent it such that we can see that the branches were separate before the commit
